@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Personal Portfolio</title>
+    <link rel="icon" href="images/coder.jpg">
+    <script src="https://kit.fontawesome.com/382f60354d.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/my-Sugumar..png"class="logo" alt="Logo">
+                <!-- <div id="icon">
+                    <i class="fa-solid fa-moon" ></i>
+                </div> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicers">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p><span class="type" style="color:	#F2E34C;"></span></p>
+                <h1>Hi, I'm <span class="span">Sugumar</span><br>from INDIA.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!--                                        about                      -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sugumar1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p><blockquote>I am a creative designer and developer, who aims to work with small bussinesses and marginalized communities to bring thier passions to life.I offer bith design and development services of web applications or websites !.</blockquote>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python developer</span><br>Python Programming</li>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>Back-end</span><br>Learning Python django framework</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>Learnig Front End Development</li>
+                            <li><span>2022</span><br>learned python basic concepts</li>
+                            <li><span>2022</span><br>learned SQL for database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2022</span><br>BE from AEC Tiruvannamalai</li>
+                            <li><span>2017-2018</span><br>HSC from MSJ Tiruvannamalai</li>
+                            <li><span>2015-2016</span><br>SSLC from St.AMS Pavithram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="servicers">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Designing a responsive website using HTML,CSS,JAVASCRIPT and BOOTSTRAP.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Having Programming knowlwdge in Python.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Back-end development</h2>
+                    <p>Learning a Python Back-end framwork DJANGO for web development
+                        and Oracle SQL.
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+               
+                
+            </div>
+
+        </div>
+    </div>
+                       <!--       Portfolio          -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>I have built my personal porfolio wesite using html,css,javascript.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Chrome Extension</h3>
+                        <p>I have learned and created a simple Chrome extension to save urls and current tab details using Html,css,javascript.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Pong game</h3>
+                        <p>I have built my first python game using turtle.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:ssugumarannamalai3@gmail.com">ssugumarannamalai3@gmail.com</a></p>
+                    <p><i class="fa-solid fa-mobile"></i><a href="tel:6382515842">+91-6382515842</a></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=x46yrsxf1wnv&utm_content=3g2khlg" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/sugumar-a-a30866221" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/916382515842" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="images/Sugumar's cv..pdf" download class="btn btn-2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="#" name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message"  rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sugumar. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="index.js"></script>
+</body>
+</html>
