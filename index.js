@@ -66,7 +66,7 @@ let msg=document.getElementById("msg")
 // let type=document.getElementById("type")
 // let arr=["Python developer","front-end developer"]
 var typed=new Typed(".type",{
-  strings:["Full-Stack Web development. ","Python-Java.","Back-End Developement."],
+  strings:["Full-Stack Web developer. ","Python-Java.","Back-End Developer."],
   typeSpeed:150,
   BackSpeed:150,
   loop:true
