@@ -246,7 +246,7 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     transition: all 0.5s;
 
 }
